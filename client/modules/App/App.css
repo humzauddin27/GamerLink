@@ -1,0 +1,127 @@
+body {
+  background-color: #EEECEC;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBarContainer {
+  padding: 1rem;
+  display: flex;
+}
+
+.searchButton {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.searchBar {
+  height: 36px;
+  width: 432px;
+  box-shadow: 0px 1px -3px;
+  border-radius: 3px;
+  border: 1px inside #E8E8E8;
+  fill: #FFFFFF 100%;
+  opacity: 100%;
+}
+
+.notFound {
+  color: #A8A8A8;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  padding: 1rem;
+  color: #aaa;
+}
+
+.user {
+  align-self: flex-start;
+  margin-left: 15px;
+}
+
+.userName {
+  font-size: 24px;
+  color: #4A4A4A;
+  opacity: 100%;
+  padding-bottom: 1rem;
+}
+
+.lastUpdated {
+  color: #9B9B9B;
+  opacity: 100%;
+  font-size: 10px;
+}
+
+.stats {
+  width: 141px;
+  height: 96px;
+  color: #4a4a4a;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.statsContainer {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.rankedContainer {
+  padding: 1rem;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  margin-right: 15px;
+}
+
+.rankedStat {
+  display: flex;
+  flex-direction: column;
+}
+
+.rankedType {
+  color: #aaa;
+}
+
+.smContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.stat {
+  font-size: 36px;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 10px;
+  color: #4A4A4A;
+  font-weight: lighter;
+}
